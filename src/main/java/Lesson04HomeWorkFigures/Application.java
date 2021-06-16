@@ -1,0 +1,60 @@
+package Lesson04HomeWorkFigures;
+
+public class Application {
+    public static void main(String[] args) {
+        Square square1 = new Square(5);
+        square1.setColor("green");
+        square1.setFilling(true);
+        square1.info();
+        System.out.println("==============");
+        Square square2 = new Square(7);
+        square2.setColor("red");
+        square2.setFilling(false);
+        square2.info();
+        System.out.println("==============");
+        Heptagon hept1 = new Heptagon(1);
+        hept1.setColor("black");
+        hept1.setFilling(true);
+        hept1.info();
+        System.out.println("==============");
+        Heptagon hept2 = new Heptagon(2);
+        hept2.setColor("silver");
+        hept2.setFilling(false);
+        hept2.info();
+        System.out.println("==============");
+        Hexagon hex1 = new Hexagon(5);
+        hex1.setColor("blue");
+        hex1.setFilling(false);
+        hex1.info();
+        System.out.println("==============");
+        Pentagon pent1 = new Pentagon(9);
+        pent1.setColor("gold");
+        pent1.setFilling(true);
+        pent1.info();
+        System.out.println("==============");
+        Triangle triangle1 = new Triangle(4);
+        triangle1.setColor("red");
+        triangle1.setFilling(true);
+        triangle1.info();
+        System.out.println("==============");
+        Circle circle1 = new Circle(4);
+        circle1.setColor("grey");
+        circle1.setFilling(false);
+        circle1.info();
+        System.out.println("==============");
+        Torus torus1 = new Torus(4,2);
+        torus1.setColor("green");
+        torus1.setFilling(true);
+        torus1.info();
+        System.out.println("==============");
+        Rectangle rec1 = new Rectangle(3,2);
+        rec1.setColor("white");
+        rec1.setFilling(true);
+        rec1.info();
+        System.out.println("==============");
+        RTriangle rt1 = new RTriangle(3,2);
+        rt1.setColor("yellow");
+        rt1.setFilling(false);
+        rt1.info();
+    }
+}
