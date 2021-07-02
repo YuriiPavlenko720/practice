@@ -9,11 +9,12 @@ public class Car extends Vehicle {
         this.price = price;
         this.consumption = consumption;
     }
+
     @Override
     public void info() {
+        System.out.println("-----------------------------");
         System.out.println("Name: " + name);
         System.out.println("Price " + price + " hrn.");
         System.out.println("Consumption: " + consumption + " l/100km");
-        System.out.println("-----------------------------");
     }
 }
